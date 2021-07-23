@@ -17,6 +17,8 @@
 		A3FABAC926A766ED0096D150 /* KWK_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FABAC826A766ED0096D150 /* KWK_FinalProjectTests.swift */; };
 		A3FABAD426A766EE0096D150 /* KWK_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FABAD326A766EE0096D150 /* KWK_FinalProjectUITests.swift */; };
 		B933190C26AA0A92002671C3 /* Viewcontroller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933190B26AA0A92002671C3 /* Viewcontroller2.swift */; };
+		B989140026AA8568007F7BA5 /* TableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98913FF26AA8568007F7BA5 /* TableViewController3.swift */; };
+		B989140226AA86B4007F7BA5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B989140126AA86B4007F7BA5 /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A3FABAD326A766EE0096D150 /* KWK_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		A3FABAD526A766EE0096D150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B933190B26AA0A92002671C3 /* Viewcontroller2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewcontroller2.swift; sourceTree = "<group>"; };
+		B98913FF26AA8568007F7BA5 /* TableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController3.swift; sourceTree = "<group>"; };
+		B989140126AA86B4007F7BA5 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				A3FABAB026A766EB0096D150 /* SceneDelegate.swift */,
 				A3FABAB226A766EB0096D150 /* ViewController.swift */,
 				A3FABAB426A766EB0096D150 /* Main.storyboard */,
+				B989140126AA86B4007F7BA5 /* ViewController4.swift */,
+				B98913FF26AA8568007F7BA5 /* TableViewController3.swift */,
 				B933190B26AA0A92002671C3 /* Viewcontroller2.swift */,
 				A3FABABA26A766ED0096D150 /* Assets.xcassets */,
 				A3FABABC26A766ED0096D150 /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FABAB326A766EB0096D150 /* ViewController.swift in Sources */,
+				B989140226AA86B4007F7BA5 /* ViewController4.swift in Sources */,
+				B989140026AA8568007F7BA5 /* TableViewController3.swift in Sources */,
 				A3FABAAF26A766EB0096D150 /* AppDelegate.swift in Sources */,
 				A3FABAB926A766EB0096D150 /* KWK_FinalProject.xcdatamodeld in Sources */,
 				A3FABAB126A766EB0096D150 /* SceneDelegate.swift in Sources */,
