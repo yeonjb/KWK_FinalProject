@@ -25,6 +25,10 @@ class Viewcontroller2: UIViewController {
     @IBAction func sadface(_ sender: UIButton) {
         darksadface.isHidden = false
     }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         darksmiley.isHidden=true

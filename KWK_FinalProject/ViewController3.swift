@@ -1,23 +1,32 @@
 //
-//  ViewController4.swift
+//  ViewController3.swift
 //  KWK_FinalProject
 //
-//  Created by Karen Martinez on 7/22/21.
+//  Created by Karen Martinez on 7/23/21.
 //
 
 import UIKit
 
-class ViewController4: UIViewController {
+class ViewController3: UIViewController {
 
+    @IBOutlet weak var quote1: UILabel!
+    @IBOutlet weak var quote2: UILabel!
+    @IBOutlet weak var quote3: UILabel!
+    @IBOutlet weak var quote4: UILabel!
+    @IBOutlet weak var quote5: UILabel!
     
-    @IBOutlet weak var textField1: UITextField!
-    @IBOutlet weak var textField2: UITextField!
-    
-    
-    @IBAction func trashCan(_ sender: UIButton) {
-        textField1.text = ""
-        textField2.text = ""
+    @IBAction func quoteButton(_ sender: UIButton) {
+        let quoteArray = [quote1, quote2, quote3, quote4, quote5]
+        
+        if let random = quoteArray.randomElement(){
+            random?.isHidden = false
+        }
+        
     }
+    
+    
+    
+    
     
     
     override func viewDidLoad() {
